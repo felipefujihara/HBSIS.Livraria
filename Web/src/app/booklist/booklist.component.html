@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>Books</h2>
+  <div *ngIf="statusCode || errmsg">
+      <alert *ngIf="statusCode != 200" type="danger">{{errmsg}}</alert>
+      <alert *ngIf="statusCode === 200" type="success">Book has been deleted successfully.</alert>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Book ID</th>
+        <th>Book Name</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody *ngFor = "let Book of Books">
+        <tr>
+          <td>{{Book.id}}</td>
+          <td>{{Book.name}}</td>
+          <td>{{Book.category}}</td>
+          <td><a class="btn btn-success" [routerLink]="['/Bookadd', Book.id ]">Edit</a>&nbsp;<a class="btn btn-danger" (click)="deleteBook({ event:$event, id: Book.id })">Delete</a></td>
+        </tr>
+     </tbody>
+  </table>
+</div>

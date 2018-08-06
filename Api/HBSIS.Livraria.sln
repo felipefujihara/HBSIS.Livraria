@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{BC8E37E0-1087-40ED-9871-37E2BB972422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{FE112CAD-44F2-4716-BF63-2B052A83E95A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{865C0BA4-6798-42B3-9F66-5C1B9EF10BA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{6D248F7A-2C77-47AF-83A2-76B7BD20812B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{9525BDB6-3167-4192-A000-2C461DDE0946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HBSIS.Livraria.Application", "HBSIS.Livraria.Application\HBSIS.Livraria.Application.csproj", "{3EED2310-0289-44CE-B461-172EAE8E1788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HBSIS.Livraria.Domain", "HBSIS.Livraria.Domain\HBSIS.Livraria.Domain.csproj", "{95B9BD3B-4244-4E29-8405-7CAF8494A2A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{8EB27BEC-7170-47A0-AECA-E410800F2718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{368F7B6B-D201-4E06-93A2-4784D7C4B206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HBSIS.Livraria.Infra.CrossCutting.IoC", "HBSIS.Livraria.Infra.CrossCutting.IoC\HBSIS.Livraria.Infra.CrossCutting.IoC.csproj", "{969F44F6-C55E-4AFD-971D-766F67F83643}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HBSIS.Livraria.Infra.Dal", "HBSIS.Livraria.Infra.Dal\HBSIS.Livraria.Infra.Dal.csproj", "{C3DE62BD-4801-4D8A-BD8F-A10088A5900C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HBSIS.Livraria.API", "HBSIS.Livraria.API\HBSIS.Livraria.API.csproj", "{49F7C54F-245F-4AA3-9B58-450CA401671E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EED2310-0289-44CE-B461-172EAE8E1788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EED2310-0289-44CE-B461-172EAE8E1788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EED2310-0289-44CE-B461-172EAE8E1788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EED2310-0289-44CE-B461-172EAE8E1788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B9BD3B-4244-4E29-8405-7CAF8494A2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B9BD3B-4244-4E29-8405-7CAF8494A2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B9BD3B-4244-4E29-8405-7CAF8494A2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B9BD3B-4244-4E29-8405-7CAF8494A2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969F44F6-C55E-4AFD-971D-766F67F83643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969F44F6-C55E-4AFD-971D-766F67F83643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969F44F6-C55E-4AFD-971D-766F67F83643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969F44F6-C55E-4AFD-971D-766F67F83643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DE62BD-4801-4D8A-BD8F-A10088A5900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DE62BD-4801-4D8A-BD8F-A10088A5900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DE62BD-4801-4D8A-BD8F-A10088A5900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DE62BD-4801-4D8A-BD8F-A10088A5900C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F7C54F-245F-4AA3-9B58-450CA401671E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F7C54F-245F-4AA3-9B58-450CA401671E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F7C54F-245F-4AA3-9B58-450CA401671E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F7C54F-245F-4AA3-9B58-450CA401671E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EED2310-0289-44CE-B461-172EAE8E1788} = {FE112CAD-44F2-4716-BF63-2B052A83E95A}
+		{95B9BD3B-4244-4E29-8405-7CAF8494A2A5} = {865C0BA4-6798-42B3-9F66-5C1B9EF10BA6}
+		{8EB27BEC-7170-47A0-AECA-E410800F2718} = {6D248F7A-2C77-47AF-83A2-76B7BD20812B}
+		{368F7B6B-D201-4E06-93A2-4784D7C4B206} = {6D248F7A-2C77-47AF-83A2-76B7BD20812B}
+		{969F44F6-C55E-4AFD-971D-766F67F83643} = {368F7B6B-D201-4E06-93A2-4784D7C4B206}
+		{C3DE62BD-4801-4D8A-BD8F-A10088A5900C} = {8EB27BEC-7170-47A0-AECA-E410800F2718}
+		{49F7C54F-245F-4AA3-9B58-450CA401671E} = {BC8E37E0-1087-40ED-9871-37E2BB972422}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD09D1A9-BA22-4D5E-817F-81C947163C41}
+	EndGlobalSection
+EndGlobal
